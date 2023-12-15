@@ -1,1 +1,1 @@
-# Flight_Tracker
+# Open flight_tracker folder to view the project
