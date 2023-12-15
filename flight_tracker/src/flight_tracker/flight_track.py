@@ -111,17 +111,4 @@ def getTravelInfo(self,departure,arrival,date,airline,resultCnt = 10):
             print("Couldn't find the flight.")
             return
         return pd.DataFrame.from_dict(available)
-        
-
-
-# In[1]:
-
-
-jupyter nbconvert --to script flight_track.ipynb
-
-
-# In[ ]:
-
-
-
 
