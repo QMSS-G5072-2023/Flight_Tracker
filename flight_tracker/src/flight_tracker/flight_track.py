@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
 
 import requests
 import datetime
@@ -11,10 +6,8 @@ from tqdm import tqdm
 import pandas as pd
 
 
-# In[4]:
 
-
-class flighttrack:
+class flight_tracker:
     def __init__(self, apikey) -> None:
         self.apikey = apikey
     def apiget(self,url,params):
